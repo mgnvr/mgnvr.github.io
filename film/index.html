@@ -8,11 +8,17 @@
   <meta name="keywords" content="защитная пленка,купить защитную пленку,защитная пленка магнитогорск">
   <title>Гидрогелевая плёнка для ваших девайсов</title>
   <link rel="stylesheet" href="css/style.min.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
   <script>
     var vh = window.innerHeight;
     document.documentElement.style.setProperty('--vh', `${vh}px`);
   </script>
+  <script>
+    // Picture element HTML5 shiv
+    document.createElement("picture");
+
+  </script>
+  <script src="js/picturefill.min.js" async=""></script>
 </head>
 
 <body>
@@ -20,14 +26,14 @@
     <section class="header__top">
       <div class="container">
         <div class="header__logo">
-          <img src="img/logo.png" alt="DriV3R" width="80" height="auto">
+          <img src="img/logo.png" alt="DriV3R" width="80">
         </div>
         <nav class="nav  nav--closed">
           <div class="nav__wrapper">
             <ul class="nav__list">
               <li class="nav__item"><a class="btn  neuro" href="#features">Преимущества</a></li>
-              <li class="nav__item"><a btn="" class="btn  neuro" href="#comparison">Сравнение</a></li>
-              <li class="nav__item"><a btn="" class="btn  neuro" href="#process">Процесс</a></li>
+              <li class="nav__item"><a class="btn  neuro" href="#comparison">Сравнение</a></li>
+              <li class="nav__item"><a class="btn  neuro" href="#process">Процесс</a></li>
               <li class="nav__item"><a class="btn  neuro  order" href="#order">Заказать</a></li>
               <li class="contacts">
                 <div class="contacts__tel"><a class="neuro  neuro--link" href="tel:+79000939392" title="Позвонить нам">8-9000-93-93-92</a></div>
@@ -70,7 +76,13 @@
             Насколько она хороша и как ею пользоваться, расскажем далее.
           </p>
         </div>
-        <div class="section__img  section__img--header"></div>
+        <!-- <div class="section__img  section__img--header"></div> -->
+        <div class="section__img">
+          <picture>
+            <source srcset="img/webp/iphone--film.webp" type="image/webp">
+            <img src="img/iphone--film.png" alt="Гидрогелевая плёнка для ваших девайсов">
+          </picture>
+        </div>
         <a class="btn  neuro  neuro--accent  header__order" href="#order">Заказать</a>
       </div>
     </section>
@@ -81,7 +93,6 @@
         </a>
       </div>
     </section>
-    
   </header>
   <main>
 
@@ -93,10 +104,10 @@
           </h1>
           <p class="section__paragraph">
             Гидрогелевая плёнка создана из полимерного материала, поглощающего и удерживающего влагу.
-          </p><p>
-            Характерная отличительная особенность — свойство самовосстановления поверхности.
-            Незначительные царапины полностью «затягиваются» в течение суток.
           </p>
+          <p></p>
+          Характерная отличительная особенность — свойство самовосстановления поверхности.
+          Незначительные царапины полностью «затягиваются» в течение суток.
           <p></p>
           <ul class="section__list">
             <li class="section__list-item  section__list-item--protect">
@@ -125,7 +136,13 @@
             </li>
           </ul>
         </div>
-        <div class="section__img  section__img--features"></div>
+        <!-- <div class="section__img  section__img--features"></div> -->
+        <div class="section__img  section__img--features">
+          <picture>
+            <source srcset="img/webp/iphone.webp" type="image/webp">
+            <img src="img/iphone.png" alt="Гидрогелевая плёнка для ваших девайсов">
+          </picture>
+        </div>
       </div>
     </section>
 
@@ -150,7 +167,13 @@
             эластичная, может использоваться повторно, обладает самовосстанавливающим свойством.
           </p>
         </div>
-        <div class="section__img  section__img--comparison"></div>
+        <!-- <div class="section__img  section__img--comparison"></div> -->
+        <div class="section__img">
+          <picture>
+            <source srcset="img/webp/ipad--film.webp" type="image/webp">
+            <img src="img/ipad--film.png" alt="Гидрогелевая плёнка для ваших девайсов">
+          </picture>
+        </div>
       </div>
     </section>
 
@@ -184,17 +207,29 @@
           </ul>
           <div class="gallery" style="width: 100%;">
             <div class="gallery__item">
-              <img class="gallery__item-img" src="img/choice-model.jpg" alt="Выберем модель">
+              <picture>
+                <source srcset="img/webp/choice-model.webp" type="image/webp">
+                <img src="img/choice-model.png" alt="Выберем модель">
+              </picture>
+              <!-- <img class="gallery__item-img" src="../img/choice-model.jpg" alt="Выберем модель"> -->
             </div>
             <div class="gallery__item">
-              <img class="gallery__item-img" src="img/install-film.jpg" alt="Нанесём плёнку">
+              <picture>
+                <source srcset="img/webp/install-film.webp" type="image/webp">
+                <img src="img/install-film.png" alt="Установим плёнку">
+              </picture>
+              <!-- <img class="gallery__item-img" src="../img/install-film.jpg" alt="Нанесём плёнку"> -->
             </div>
             <div class="gallery__item">
-              <img class="gallery__item-img" src="img/install-complete.jpg" alt="Готово">
+              <picture>
+                <source srcset="img/webp/install-complete.webp" type="image/webp">
+                <img src="img/install-complete.png" alt="Готово">
+              </picture>
+              <!-- <img class="gallery__item-img" src="../img/install-complete.jpg" alt="Готово"> -->
             </div>
             <div class="gallery__item  gallery__item--video">
               <div class="iframe-parent">
-                <iframe src="https://www.youtube.com/embed/7VTD_skSWqM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                <iframe src="https://www.youtube.com/embed/7VTD_skSWqM" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
               </div>
             </div>
           </div>
@@ -204,7 +239,7 @@
 
     <section id="order" class="section">
       <div class="container--vertical">
-        <div class="section__desccription">
+        <div class="section__description  section__description--order">
           <h1 class="section__title">
             Заказать
           </h1>
@@ -224,7 +259,8 @@
               * - поля, обязательные для заполнения
             </span>
             <button type="submit" class="btn  btn--submit  pageclip-form__submit  neuro  neuro--accent"><span>Отправить</span></button>
-            <div class="pageclip-form__error  neuro  hidden"><span class="pageclip-form__error-text">Упс! Что-то пошло не так и ваш запрос был отклонён, попробуйте, пожалуйства, снова. Или позвоните нам.</span><a class="btn  btn--close  neuro  neuro--accent  button-close" href="/">Закрыть</a></div>
+            <div class="pageclip-form__error  neuro  hidden"><span class="pageclip-form__error-text">Упс! Что-то пошло
+                не так и ваш запрос был отклонён, попробуйте, пожалуйства, снова. Или позвоните нам.</span><a class="btn  btn--close  neuro  neuro--accent  button-close" href="/">Закрыть</a></div>
           </form>
         </div>
       </div>
@@ -249,11 +285,9 @@
     </div>
   </footer>
 
-  <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+  <script src="js/jquery-2.2.4.min.js"></script>
   <script src="js/slick.min.js"></script>
   <script src="js/imask.min.js"></script>
-  <!-- <script src="scripts/back-to-top.js"></script> -->
-  <!-- <script src="scripts/back-to-top-main.js"></script> -->
   <script src="https://s.pageclip.co/v1/pageclip.js"></script>
   <script src="js/main.js"></script>
 </body>
