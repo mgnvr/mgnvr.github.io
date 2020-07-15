@@ -9,24 +9,34 @@
   <title>Гидрогелевая плёнка для ваших девайсов</title>
   <link rel="stylesheet" href="css/style.min.css">
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+
   <script>
     var vh = window.innerHeight;
     document.documentElement.style.setProperty('--vh', `${vh}px`);
   </script>
+  
   <script>
-    // Picture element HTML5 shiv
     document.createElement("picture");
-
   </script>
+
   <script src="js/picturefill.min.js" async=""></script>
 </head>
 
 <body>
+
+  <!-- <div style="display:none">
+    <include src="build/icons/sprite.svg"></include>
+  </div> -->
+
   <header class="header">
-    <section class="header__top">
+    <div class="header__top">
       <div class="container">
         <div class="header__logo">
-          <img src="img/logo.png" alt="DriV3R" width="80">
+          <!-- <img src="img/logo.png" alt="DriV3R" width="80"> -->
+          <picture>
+            <source srcset="img/webp/logo.webp" type="image/webp">
+            <img src="img/logo.png" alt="DriV3R" width="80">
+          </picture>
         </div>
         <nav class="nav  nav--closed">
           <div class="nav__wrapper">
@@ -37,34 +47,60 @@
               <li class="nav__item"><a class="btn  neuro  order" href="#order">Заказать</a></li>
               <li class="contacts">
                 <div class="contacts__tel"><a class="neuro  neuro--link" href="tel:+79000939392" title="Позвонить нам">8-9000-93-93-92</a></div>
-                <a class="neuro  neuro--link" href="https://www.instagram.com/driv3r_mgnvr" target="_blank"><img src="icons/icon-instagram.svg" title="Мы в Инcтаграме" width="22" height="22"></a>
-                <a class="neuro  neuro--link" href="https://vk.com/mgnvr" target="_blank"><img src="icons/icon-vk.svg" title="Мы ВКонтакте" width="30" height="17"></a>
-                <a class="neuro  neuro--link" href="/"><img src="icons/icon-yb.svg" title="Мы в Youtube" width="25" height="25"></a>
+                <a class="neuro  neuro--link" href="https://www.instagram.com/driv3r_mgnvr" target="_blank">
+                  <img src="icons/icon-instagram.svg" title="Мы в Инcтаграме" width="22" height="22">
+                </a>
+                <a class="neuro  neuro--link" href="https://vk.com/mgnvr" target="_blank" title="Мы ВКонтакте">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="17" viewBox="0 0 30 18">
+                    <use xlink:href="icons/sprite.svg#icon-vk"></use>
+                  </svg>
+                  </a>
+                <a class="neuro  neuro--link" href="/" title="Мы в YouTube">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 26">
+                    <use xlink:href="icons/sprite.svg#icon-yb"></use>
+                  </svg>
+                </a>
               </li>
             </ul>
           </div>
         </nav>
         <button class="toggle  neuro"></button>
       </div>
-    </section>
+    </div>
 
-    <section class="header__middle  section">
+    <div class="header__middle  section">
       <div class="container--vertical  container--header">
         <div class="section__description">
           <h1 class="section__title">Гидрогелевая плёнка</h1>
           <span class="section__subtitle">для ваших девайсов</span>
           <ul class="header__list">
             <li class="header__list-item  header__list-item--watch">
-              <div class="neuro"></div>
+              <div class="neuro">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 30 30">
+                  <use xlink:href="icons/sprite.svg#icon-watch"></use>
+                </svg>
+              </div>
             </li>
             <li class="header__list-item  header__list-item--phone">
-              <div class="neuro"></div>
+              <div class="neuro">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 30 30">
+                  <use xlink:href="icons/sprite.svg#icon-phone"></use>
+                </svg>
+              </div>
             </li>
             <li class="header__list-item  header__list-item--pad">
-              <div class="neuro"></div>
+              <div class="neuro">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 30 30">
+                  <use xlink:href="icons/sprite.svg#icon-pad"></use>
+                </svg>
+              </div>
             </li>
             <li class="header__list-item  header__list-item--camera">
-              <div class="neuro"></div>
+              <div class="neuro">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 30 30">
+                  <use xlink:href="icons/sprite.svg#icon-camera"></use>
+                </svg>
+              </div>
             </li>
           </ul>
           <p class="section__paragraph">
@@ -76,7 +112,6 @@
             Насколько она хороша и как ею пользоваться, расскажем далее.
           </p>
         </div>
-        <!-- <div class="section__img  section__img--header"></div> -->
         <div class="section__img">
           <picture>
             <source srcset="img/webp/iphone--film.webp" type="image/webp">
@@ -85,58 +120,86 @@
         </div>
         <a class="btn  neuro  neuro--accent  header__order" href="#order">Заказать</a>
       </div>
-    </section>
-    <section class="header__bottom">
+    </div>
+    
+    <div class="header__bottom">
       <div class="container--vertical">
         <a href="#features">
-          <div class="arrow  btn  neuro"></div>
+          <div class="arrow  btn  neuro">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="19" viewBox="0 0 22 19">
+              <use xlink:href="icons/sprite.svg#icon-arrow"></use>
+            </svg>
+          </div>
         </a>
       </div>
-    </section>
+    </div>
   </header>
   <main>
 
     <section id="features" class="section">
       <div class="container--vertical  container--features">
         <div class="section__description">
-          <h1 class="section__title">
+          <h2 class="section__title">
             Преимущества
-          </h1>
+          </h2>
           <p class="section__paragraph">
             Гидрогелевая плёнка создана из полимерного материала, поглощающего и удерживающего влагу.
           </p>
-          <p></p>
-          Характерная отличительная особенность — свойство самовосстановления поверхности.
-          Незначительные царапины полностью «затягиваются» в течение суток.
-          <p></p>
+          <p>
+            Характерная отличительная особенность — свойство самовосстановления поверхности.
+            Незначительные царапины полностью «затягиваются» в течение суток.
+          </p>
           <ul class="section__list">
             <li class="section__list-item  section__list-item--protect">
-              <div class="neuro"></div>
+              <div class="neuro">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                  <use xlink:href="icons/sprite.svg#icon-hammer"></use>
+                </svg>
+              </div>
               <p>Устойчива к механическим повреждениям</p>
             </li>
             <li class="section__list-item  section__list-item--color">
-              <div class="neuro"></div>
+              <div class="neuro">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                  <use xlink:href="icons/sprite.svg#icon-color"></use>
+                </svg>
+              </div>
               <p>Полностью прозрачная, не влияет на цветопередачу</p>
             </li>
             <li class="section__list-item  section__list-item--sensor">
-              <div class="neuro"></div>
+              <div class="neuro">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                  <use xlink:href="icons/sprite.svg#icon-fingerprint"></use>
+                </svg>
+              </div>
               <p>Не ухудшает чувствительность сенсора</p>
             </li>
             <li class="section__list-item  section__list-item--safety">
-              <div class="neuro"></div>
+              <div class="neuro">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                  <use xlink:href="icons/sprite.svg#icon-safety"></use>
+                </svg>
+              </div>
               <p>Не выделяет вредные вещества, безопасна</p>
             </li>
             <li class="section__list-item  section__list-item--infinity">
-              <div class="neuro"></div>
+              <div class="neuro">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                  <use xlink:href="icons/sprite.svg#icon-infinity"></use>
+                </svg>
+              </div>
               <p>Продолжительный срок службы</p>
             </li>
             <li class="section__list-item  section__list-item--precision">
-              <div class="neuro"></div>
+              <div class="neuro">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                  <use xlink:href="icons/sprite.svg#icon-precision"></use>
+                </svg>
+              </div>
               <p>Идеально подходит под размер девайса</p>
             </li>
           </ul>
         </div>
-        <!-- <div class="section__img  section__img--features"></div> -->
         <div class="section__img  section__img--features">
           <picture>
             <source srcset="img/webp/iphone.webp" type="image/webp">
@@ -149,9 +212,9 @@
     <section id="comparison" class="section">
       <div class="container--vertical">
         <div class="section__description">
-          <h1 class="section__title">
+          <h2 class="section__title">
             Плёнка или стекло?
-          </h1>
+          </h2>
           <p class="section__paragraph">
             В отличие от обычной плёнки и стекла, гидрогель не отклеивается по краям через несколько месяцев
             эксплуатации. Срок ее использования в разы выше. Свойство восстановления не идет ни в какое сравнение. У
@@ -167,7 +230,6 @@
             эластичная, может использоваться повторно, обладает самовосстанавливающим свойством.
           </p>
         </div>
-        <!-- <div class="section__img  section__img--comparison"></div> -->
         <div class="section__img">
           <picture>
             <source srcset="img/webp/ipad--film.webp" type="image/webp">
@@ -180,26 +242,38 @@
     <section id="process" class="section">
       <div class="container--vertical">
         <div class="section__description  section__description--process" style="width: 100%;">
-          <h1 class="section__title">
+          <h2 class="section__title">
             Процесс
-          </h1>
+          </h2>
           <p class="section__paragraph  section__paragraph--process">
             В работе используем профессиональное оборудование. Сам процесс занимает несколько минут. Плёнка вырезается
             ровно под экран вашего девайса - смартфон, планшет, смарт-часы или фотоаппарат.
           </p>
           <ul class="process__list">
             <li class="process__list-item  process__list-item--choice">
-              <div class="neuro"></div>
+              <div class="neuro">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                  <use xlink:href="icons/sprite.svg#icon-choice"></use>
+                </svg>
+              </div>
               <p>1. Скажи модель...</p>
             </li>
             <li class="process__list-item  process__list-item--wait">
-              <div class="neuro"></div>
+              <div class="neuro">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                  <use xlink:href="icons/sprite.svg#icon-wait"></use>
+                </svg>
+              </div>
               <p>
                 2. Подожди минутку...
               </p>
             </li>
             <li class="process__list-item  process__list-item--complete">
-              <div class="neuro"></div>
+              <div class="neuro">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                  <use xlink:href="icons/sprite.svg#icon-check"></use>
+                </svg>
+              </div>
               <p>
                 3. Готово!
               </p>
@@ -211,26 +285,23 @@
                 <source srcset="img/webp/choice-model.webp" type="image/webp">
                 <img src="img/choice-model.png" alt="Выберем модель">
               </picture>
-              <!-- <img class="gallery__item-img" src="../img/choice-model.jpg" alt="Выберем модель"> -->
             </div>
             <div class="gallery__item">
               <picture>
                 <source srcset="img/webp/install-film.webp" type="image/webp">
                 <img src="img/install-film.png" alt="Установим плёнку">
               </picture>
-              <!-- <img class="gallery__item-img" src="../img/install-film.jpg" alt="Нанесём плёнку"> -->
             </div>
             <div class="gallery__item">
               <picture>
                 <source srcset="img/webp/install-complete.webp" type="image/webp">
                 <img src="img/install-complete.png" alt="Готово">
               </picture>
-              <!-- <img class="gallery__item-img" src="../img/install-complete.jpg" alt="Готово"> -->
             </div>
             <div class="gallery__item  gallery__item--video">
-              <div class="iframe-parent">
-                <iframe src="https://www.youtube.com/embed/7VTD_skSWqM" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-              </div>
+
+              <div class="lazyframe" data-src="https://www.youtube.com/embed/7VTD_skSWqM" data-vendor="youtube" style="background-image: url('https://i.ytimg.com/vi/7VTD_skSWqM/hqdefault.jpg');">
+                <span class="lazyframe__title">Установка гидрогелевой плёнки</span></div>
             </div>
           </div>
         </div>
@@ -240,9 +311,9 @@
     <section id="order" class="section">
       <div class="container--vertical">
         <div class="section__description  section__description--order">
-          <h1 class="section__title">
+          <h2 class="section__title">
             Заказать
-          </h1>
+          </h2>
           <p class="section__paragraph">
             Изготовим плёнку под любой ваш девайс. Самовывоз или доставка. Ответим на интересующие вопросы.
           </p>
@@ -271,16 +342,31 @@
     <div class="container--vertical  container--footer">
       <div class="contacts">
         <div class="contacts__tel"><a class="neuro  neuro--link" href="tel:+79000939392" title="Позвонить нам">8-9000-93-93-92</a></div>
-        <a class="neuro  neuro--link" href="https://www.instagram.com/driv3r_mgnvr" target="_blank"><img src="icons/icon-instagram.svg" title="Мы в Инcтаграме" width="22" height="22"></a>
-        <a class="neuro  neuro--link" href="https://vk.com/mgnvr" target="_blank"><img src="icons/icon-vk.svg" title="Мы ВКонтакте" width="30" height="17"></a>
-        <a class="neuro  neuro--link" href="/"><img src="icons/icon-yb.svg" title="Мы в Youtube" width="25" height="25"></a>
+            <a class="neuro  neuro--link" href="https://www.instagram.com/driv3r_mgnvr" target="_blank">
+              <img src="icons/icon-instagram.svg" title="Мы в Инcтаграме" width="22" height="22">
+            </a>
+            <a class="neuro  neuro--link" href="https://vk.com/mgnvr" target="_blank" title="Мы ВКонтакте">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="17" viewBox="0 0 30 18">
+                <use xlink:href="icons/sprite.svg#icon-vk"></use>
+              </svg>
+              </a>
+            <a class="neuro  neuro--link" href="/" title="Мы в YouTube">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 26">
+                <use xlink:href="icons/sprite.svg#icon-yb"></use>
+              </svg>
+            </a>
       </div>
       <div class="copyright">
         Ⓒ Driv3r, 2017 - 2020 | По всем вопросам обращаться по телефону или в группу ВКонтакте
       </div>
       <div class="developer">
         <p>Дизайн и разработка</p>
-        <a class="neuro  neuro--link" href="https://vk.com/primirenkov" target="_blank"><img src="icons/icon-ps.svg" alt="Сергей Примиренков"></a>
+        <a class="neuro  neuro--link" href="https://vk.com/primirenkov" target="_blank">
+          <!-- <img src="icons/icon-ps.svg" alt="Сергей Примиренков"> -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 30 30">
+            <use xlink:href="icons/sprite.svg#icon-ps"></use>
+          </svg>
+          </a>
       </div>
     </div>
   </footer>
@@ -289,6 +375,8 @@
   <script src="js/slick.min.js"></script>
   <script src="js/imask.min.js"></script>
   <script src="https://s.pageclip.co/v1/pageclip.js"></script>
+  <script src="js/lazyframe.min.js"></script>
+  <script src="js/svg4everybody.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 
