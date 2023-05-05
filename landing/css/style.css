@@ -1,36 +1,36 @@
 @font-face {
   font-family: "Sci-Fi";
-  src: url("/assets/fonts/Sci-Fi.woff") format("woff");
+  src: url("/landing/assets/fonts/Sci-Fi.woff") format("woff");
   font-weight: 400;
   font-display: fallback;
 }
 
 @font-face {
   font-family: "Montserrat";
-  src: url("/assets/fonts/Montserrat-Regular.woff2") format("woff2"),
-    url("/assets/fonts/Montserrat-Regular.woff") format("woff");
+  src: url("/landing/assets/fonts/Montserrat-Regular.woff2") format("woff2"),
+    url("/landing/assets/fonts/Montserrat-Regular.woff") format("woff");
   font-weight: 400;
   font-display: fallback;
 }
 
 @font-face {
   font-family: "Montserrat";
-  src: url("/assets/fonts/Montserrat-SemiBold.woff2") format("woff2"),
-    url("/assets/fonts/Montserrat-SemiBold.woff") format("woff");
+  src: url("/landing/assets/fonts/Montserrat-SemiBold.woff2") format("woff2"),
+    url("/landing/assets/fonts/Montserrat-SemiBold.woff") format("woff");
   font-weight: 600;
 }
 
 @font-face {
   font-family: "Montserrat";
-  src: url("/assets/fonts/Montserrat-Bold.woff2") format("woff2"),
-    url("/assets/fonts/Montserrat-Bold.woff") format("woff");
+  src: url("/landing/assets/fonts/Montserrat-Bold.woff2") format("woff2"),
+    url("/landing/assets/fonts/Montserrat-Bold.woff") format("woff");
   font-weight: 700;
 }
 
 @font-face {
   font-family: "Montserrat";
-  src: url("/assets/fonts/Montserrat-ExtraBold.woff2") format("woff2"),
-    url("/assets/fonts/Montserrat-ExtraBold.woff") format("woff");
+  src: url("/landing/assets/fonts/Montserrat-ExtraBold.woff2") format("woff2"),
+    url("/landing/assets/fonts/Montserrat-ExtraBold.woff") format("woff");
   font-weight: 900;
 }
 
@@ -71,7 +71,7 @@ main::before {
   width: 100%;
   height: 100%;
   content: "";
-  background-image: url("/assets/images/waves.jpg");
+  background-image: url("/landing/assets/images/waves.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -261,23 +261,23 @@ h2::before {
 }
 
 .section--about h2::before {
-  background-image: url("/assets/icons/planner.png");
+  background-image: url("/landing/assets/icons/planner.png");
 }
 
 .section--platforms h2::before {
-  background-image: url("/assets/icons/piсture.png");
+  background-image: url("/landing/assets/icons/piсture.png");
 }
 
 .section--games h2::before {
-  background-image: url("/assets/icons/game.png");
+  background-image: url("/landing/assets/icons/game.png");
 }
 
 .section--price h2::before {
-  background-image: url("/assets/icons/wallet.png");
+  background-image: url("/landing/assets/icons/wallet.png");
 }
 
 .section--find_us h2::before {
-  background-image: url("/assets/icons/pin.png");
+  background-image: url("/landing/assets/icons/pin.png");
 }
 
 .header__offer {
@@ -1095,15 +1095,15 @@ h3.platform-name {
 }
 
 .platform--htc .platform-name::before {
-  background-image: url("/assets/images/platforms/htc_vive/htc-headset.png");
+  background-image: url("/landing/assets/images/platforms/htc_vive/htc-headset.png");
 }
 
 .platform--psvr .platform-name::before {
-  background-image: url("/assets/images/platforms/psvr/psvr-headset.png");
+  background-image: url("/landing/assets/images/platforms/psvr/psvr-headset.png");
 }
 
 .platform--ps5 .platform-name::before {
-  background-image: url("/assets/images/platforms/ps5/dualsense.png");
+  background-image: url("/landing/assets/images/platforms/ps5/dualsense.png");
 }
 
 .platform--psvr .platform-img {
