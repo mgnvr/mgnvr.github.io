@@ -1096,14 +1096,32 @@ h3.platform-name {
 
 .platform--htc .platform-name::before {
   background-image: url("/landing/assets/images/platforms/htc_vive/htc-headset.png");
+  background-image: -webkit-image-set(
+    url("/landing/assets/images/platforms/htc_vive/htc-headset.webp") 1x
+  );
+  background-image: image-set(
+    url("/landing/assets/images/platforms/htc_vive/htc-headset.webp") type("image/webp") 1x
+  );
 }
 
 .platform--psvr .platform-name::before {
   background-image: url("/landing/assets/images/platforms/psvr/psvr-headset.png");
+  background-image: -webkit-image-set(
+    url("/landing/assets/images/platforms/psvr/psvr-headset.webp") 1x
+  );
+  background-image: image-set(
+    url("/landing/assets/images/platforms/psvr/psvr-headset.webp") type("image/webp") 1x
+  );
 }
 
 .platform--ps5 .platform-name::before {
   background-image: url("/landing/assets/images/platforms/ps5/dualsense.png");
+  background-image: -webkit-image-set(
+    url("/landing/assets/images/platforms/ps5/dualsense.webp") 1x
+  );
+  background-image: image-set(
+    url("/landing/assets/images/platforms/ps5/dualsense.webp") type("image/webp") 1x
+  );  
 }
 
 .platform--psvr .platform-img {
