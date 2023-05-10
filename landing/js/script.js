@@ -162,7 +162,7 @@ pannellum.viewer("panorama", {
   type: "equirectangular",
   autoLoad: true,
   compass: false,
-  panorama: "assets/photos/driv3r_tour.jpg",
+  panorama: "assets/photos/driv3r_tour.webp",
   hfov: 120,
   mouseZoom: false,
   minPitch: 0,
@@ -230,16 +230,6 @@ const swiper = new Swiper(".swiper--photos", {
   direction: "horizontal",
   loop: true,
   grabCursor: true,
-  // effect: "creative",
-  // creativeEffect: {
-  //   prev: {
-  //     shadow: true,
-  //     translate: ["-20%", 0, -1],
-  //   },
-  //   next: {
-  //     translate: ["100%", 0, 0],
-  //   },
-  // },
   pagination: {
     el: ".swiper-pagination--photos",
   },
@@ -267,16 +257,6 @@ const swiperHTC = new Swiper(".swiper--htc", {
   direction: "horizontal",
   loop: true,
   grabCursor: true,
-  // effect: "creative",
-  // creativeEffect: {
-  //   prev: {
-  //     shadow: true,
-  //     translate: ["-20%", 0, -1],
-  //   },
-  //   next: {
-  //     translate: ["100%", 0, 0],
-  //   },
-  // },
   pagination: {
     el: ".swiper-pagination--htc",
   },
@@ -290,16 +270,6 @@ const swiperPSVR = new Swiper(".swiper--psvr", {
   direction: "horizontal",
   loop: true,
   grabCursor: true,
-  // effect: "creative",
-  // creativeEffect: {
-  //   prev: {
-  //     shadow: true,
-  //     translate: ["-20%", 0, -1],
-  //   },
-  //   next: {
-  //     translate: ["100%", 0, 0],
-  //   },
-  // },
   pagination: {
     el: ".swiper-pagination--psvr",
   },
@@ -313,16 +283,6 @@ const swiperPS5 = new Swiper(".swiper--ps5", {
   direction: "horizontal",
   loop: true,
   grabCursor: true,
-  // effect: "creative",
-  // creativeEffect: {
-  //   prev: {
-  //     shadow: true,
-  //     translate: ["-20%", 0, -1],
-  //   },
-  //   next: {
-  //     translate: ["100%", 0, 0],
-  //   },
-  // },
   pagination: {
     el: ".swiper-pagination--ps5",
   },
@@ -342,7 +302,6 @@ DG.FloorsWidget.init({
       initialFloor: "3",
       initialFirm: "70000001028584133",
       initialZoom: "20",
-      poi: false,
     },
   },
 });
