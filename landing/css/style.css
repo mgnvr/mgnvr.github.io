@@ -1290,7 +1290,7 @@ h3.platform-name {
 }
 
 /* Iframes */
-
+.video-youtube,
 .video-veshalka,
 .gis iframe {
   border-radius: 4px;
