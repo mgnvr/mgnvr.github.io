@@ -17,6 +17,7 @@
   <link rel="preload" href="assets/fonts/Montserrat-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/Montserrat-Bold.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/video/vr.webm" as="video" type="video/webp" crossorigin>
+  <link rel="stylesheet" href="css/lite-yt-embed.css">
   <link rel="stylesheet" href="css/pannellum.min.css">
   <link rel="stylesheet" href="css/swiper.min.css">
   <link rel="stylesheet" href="css/style.css">
@@ -117,8 +118,7 @@
           становитесь их частью, а не только наблюдателями.</p>
         <p>У нас вы сможете испытать самые последние технологии, которые используются для погружения в виртуальную
           реальность.</p>
-        <iframe class="video-youtube" height="480" src="https://www.youtube.com/embed/OzIFPegWJMQ" title="Обзор виртуального центра DriV3R"
-          allowfullscreen loading="lazy"></iframe>
+        <lite-youtube class="video-youtube" videoid="OzIFPegWJMQ" playlabel="Обзор виртуального центра DriV3R" style="background-image: url('assets/images/poster_yt.webp'); height: 480px; max-width: 100%;"></lite-youtube>
         <h3>Выездные мероприятия</h3>
         <p>Наша команда проводит выездные мероприятия. Сотрудничаем с автосалонами, гик-фестивалями,
           торгово-развлекательными центрами, образовательными учреждениями.</p>
@@ -1187,6 +1187,7 @@
       </div>
     </div>
   </footer>
+  <script src="js/lite-yt-embed.js"></script>
   <script src="https://floors-widget.api.2gis.ru/loader.js" id="dg-floors-widget-loader"></script>
   <script src="js/script.js"></script>
 </body>
