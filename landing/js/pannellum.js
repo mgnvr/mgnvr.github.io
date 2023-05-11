@@ -1186,8 +1186,8 @@ window.pannellum = (function (E, g, p) {
             W.addEventListener("pointermove", c, !1),
             W.addEventListener("pointerup", a, !1),
             W.addEventListener("pointerleave", a, !1))
-          : (W.addEventListener("touchstart", Ka, !1),
-            W.addEventListener("touchmove", la, !1),
+          : (W.addEventListener("touchstart", Ka, !1, {passive: true}),
+            W.addEventListener("touchmove", la, !1, {passive: true}),
             W.addEventListener("touchend", Ea, !1)),
         E.navigator.pointerEnabled && (s.style.touchAction = "none"));
       va();
@@ -2505,9 +2505,13 @@ window.pannellum = (function (E, g, p) {
     v.orientation.addEventListener("mousedown", function (a) {
       a.stopPropagation();
     });
-    v.orientation.addEventListener("touchstart", function (a) {
-      a.stopPropagation();
-    });
+    v.orientation.addEventListener(
+      "touchstart",
+      function (a) {
+        a.stopPropagation();
+      },
+      { passive: true }
+    );
     v.orientation.addEventListener("pointerdown", function (a) {
       a.stopPropagation();
     });

@@ -41,9 +41,13 @@ var panorama = document.getElementById("panorama");
 panorama.addEventListener("mousedown", function () {
   swipeHand.style.display = "none";
 });
-panorama.addEventListener("touchmove", function () {
-  swipeHand.style.display = "none";
-});
+panorama.addEventListener(
+  "touchmove",
+  function () {
+    swipeHand.style.display = "none";
+  },
+  { passive: true }
+);
 
 pannellum.viewer("panorama", {
   type: "equirectangular",
