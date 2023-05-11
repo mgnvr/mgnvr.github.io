@@ -1186,8 +1186,8 @@ window.pannellum = (function (E, g, p) {
             W.addEventListener("pointermove", c, !1),
             W.addEventListener("pointerup", a, !1),
             W.addEventListener("pointerleave", a, !1))
-          : (W.addEventListener("touchstart", Ka, !1, {passive: true}),
-            W.addEventListener("touchmove", la, !1, {passive: true}),
+          : (W.addEventListener("touchstart", Ka, {passive: true}),
+            W.addEventListener("touchmove", la, {passive: true}),
             W.addEventListener("touchend", Ea, !1)),
         E.navigator.pointerEnabled && (s.style.touchAction = "none"));
       va();
