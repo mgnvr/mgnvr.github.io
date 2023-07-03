@@ -157,6 +157,19 @@ const swiperHTC = new Swiper(".swiper--htc", {
   },
 });
 
+const swiperOQ2 = new Swiper(".swiper--oq2", {
+  direction: "horizontal",
+  loop: true,
+  grabCursor: true,
+  pagination: {
+    el: ".swiper-pagination--oq2",
+  },
+  navigation: {
+    nextEl: ".swiper-button-next--oq2",
+    prevEl: ".swiper-button-prev--oq2",
+  },
+});
+
 const swiperPSVR = new Swiper(".swiper--psvr", {
   direction: "horizontal",
   loop: true,
