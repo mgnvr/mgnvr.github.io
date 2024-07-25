@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="description"
+    content="Клуб виртуальной реальности в Магнитогорске. VR-консоли последнего поколения. Бронирование площадок. Выездные мероприятия">
+  <meta name="keywords"
+    content="виртуальная реальность, клуб виртуальной реальности, виртуальная реальность магнитогорск, vr-клуб магнитогорск">
+  <meta name="robots" content="all">
+  <meta name="author" content="Сергей Примиренков">
+  <meta name="theme-color" content="#111136">
+  <link rel="preload" href="assets/images/mario.jpg" as="image" type="image/jpg" crossorigin>
+  <link rel="preload" href="assets/mario.mp4" as="video" crossorigin>
+  <link rel="preload" href="assets/fonts/Sci-Fi.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="assets/fonts/Montserrat-Regular.woff2" as="font" crossorigin>
+  <link rel="preload" href="assets/fonts/Montserrat-SemiBold.woff2" as="font" crossorigin>
+  <link rel="preload" href="assets/fonts/Montserrat-Bold.woff2" as="font" crossorigin>
+  <link rel="stylesheet" href="css/lite-yt-embed.min.css">
+  <link rel="stylesheet" href="css/pannellum.min.css">
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+  <title>DriV3R - Центр виртуальной реальности в Магнитогорске</title>
+  <script>
+    var vh = window.innerHeight;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+  </script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container  container--header">
+      <div class="header__top">
+        <img class="header__logo header__logo--consoles" src="assets/images/logo_consoles.png" alt="Центр ВР DriV3R" width="84" height="29">
+        <button class="hamburger hamburger--squeeze" type="button">
+          Открыть меню
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+        <nav class="main-nav  main-nav--desktop">
+          <div class="main-nav__wrapper">
+            <ul class="main-nav__list">
+              <!-- <li class="main-nav__item"><a class="link link--nav" href="#about">О нас</a></li>
+              <li class="main-nav__item"><a class="link link--nav" href="#platforms">Платформы</a></li>
+              <li class="main-nav__item"><a class="link link--nav" href="#games">Игры</a></li>
+              <li class="main-nav__item"><a class="link link--nav" href="#price">Прайс</a></li>
+              <li class="main-nav__item"><a class="link link--nav" href="#find_us">Найти нас</a></li> -->
+              <li class="contacts">
+                <a class="link" href="tel:+79000939392" title="Позвонить нам">8-9000-93-93-92</a>
+                <a class="link" href="https://vk.com/mgnvr" title="Мы ВК" target="_blank">
+                  Вк
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <nav id="nav" class="main-nav  main-nav--closed  main-nav--nojs  main-nav--mobile">
+          <div class="main-nav__wrapper">
+            <ul class="main-nav__list">
+              <li class="main-nav__item"><a class="link link--nav" href="#about">О нас</a></li>
+              <li class="main-nav__item"><a class="link link--nav" href="#platforms">Платформы</a></li>
+              <li class="main-nav__item"><a class="link link--nav" href="#games">Игры</a></li>
+              <li class="main-nav__item"><a class="link link--nav" href="#price">Прайс</a></li>
+              <li class="main-nav__item"><a class="link link--nav" href="#find_us">Найти нас</a></li>
+              <li class="main-nav__item main-nav__item--info contacts">
+                <div class="contacts__tel"><a class="link" href="tel:+79000939392"
+                    title="Позвонить нам">8-9000-93-93-92</a>
+                </div>
+                <a class="link" title="Мы ВК" href="https://vk.com/mgnvr">Вк</a>
+              </li>
+              <li class="main-nav__item main-nav__item--info">
+                <ul class="main-nav__address-time">
+                  <li class="main-nav__address">
+                    <img src="assets/icons/pin.svg" alt="Мы находимся" width="20" height="30">
+                    <div>Магнитогорск, Ленина 83 <br> ТРК Континент</div>
+                  </li>
+                  <li class="main-nav__time">
+                    <img src="assets/icons/time.svg" alt="Мы работаем" width="25" height="25">
+                    <div>10:00 - 21:00 <br> ежедневно</div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="header__center">
+        <h1 class="header__title">Играй <br class="header__separator"> по-новому</h1>
+        <!-- <span class="header__subtitle">в Магнитогорске</span> -->
+        <p class="header__offer">
+          Погрузитесь в захватывающий игровой опыт с передовыми игровыми консолями. XBox, Nintendo, PlayStation. Гарантия, ремонт, обслуживание и большой выбор игр ждут вас. Начните своё игровое путешествие уже сегодня!
+        </p>
+        <a href="#find_us" class="link link--cta">
+          Выбрать консоль
+        </a>
+      </div>
+      <div class="header__bottom">
+        <a class="link link--more" href="#about">
+          Узнать больше
+        </a>
+      </div>
+    </div>
+    <video class="header__video" poster="assets/mario.jpg" autoplay playsinline muted loop>
+      <source src="assets/video/mario.mp4" type="video/mp4">
+    </video>
+  </header>
+  <!-- <script src="js/lite-yt-embed.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <script src="js/pannellum.min.js"></script>
+  <script src="https://floors-widget.api.2gis.ru/loader.js" id="dg-floors-widget-loader"></script>
+  <script src="js/script.js"></script> -->
+</body>
+
+</html>
