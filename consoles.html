@@ -8,20 +8,20 @@
   <meta name="description"
     content="Клуб виртуальной реальности в Магнитогорске. VR-консоли последнего поколения. Бронирование площадок. Выездные мероприятия">
   <meta name="keywords"
-    content="игровые консоли, приставки, playstation, nintendo, xbox, прошивка консолей, консоли магнитогорск">
+    content="игровые консоли, приставки, playstation, nintendo, Xbox, прошивка консолей, консоли магнитогорск">
   <meta name="robots" content="all">
   <meta name="author" content="Сергей Примиренков">
   <meta name="theme-color" content="#111136">
   <link rel="preload" href="assets/images/mario.jpg" as="image" type="image/jpg" crossorigin>
-  <link rel="preload" href="assets/mario.mp4" as="video" crossorigin>
   <link rel="preload" href="assets/fonts/Sci-Fi.woff" as="font" type="font/woff" crossorigin>
-  <link rel="preload" href="assets/fonts/Montserrat-Regular.woff2" as="font" crossorigin>
-  <link rel="preload" href="assets/fonts/Montserrat-SemiBold.woff2" as="font" crossorigin>
-  <link rel="preload" href="assets/fonts/Montserrat-Bold.woff2" as="font" crossorigin>
-  <link rel="stylesheet" href="css/lite-yt-embed.min.css">
+  <link rel="preload" href="assets/fonts/Montserrat-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/Montserrat-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/Montserrat-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/video/mario.mp4" as="video" type="video/mp4" crossorigin>
   <link rel="stylesheet" href="css/swiper.min.css">
   <link rel="stylesheet" href="css/style.min.css">
-  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
   <title>DriV3R - Игровые консоли</title>
   <script>
@@ -34,7 +34,8 @@
   <header class="header header--consoles">
     <div class="container  container--header">
       <div class="header__top">
-        <img class="header__logo header__logo--consoles" src="assets/images/logo_consoles.png" alt="Центр ВР DriV3R" width="84" height="29">
+        <img class="header__logo header__logo--consoles" src="assets/images/logo_consoles.png" alt="Центр ВР DriV3R"
+          width="84" height="29">
         <button class="hamburger hamburger--squeeze" type="button">
           Открыть меню
           <span class="hamburger-box">
@@ -44,11 +45,9 @@
         <nav class="main-nav  main-nav--desktop">
           <div class="main-nav__wrapper">
             <ul class="main-nav__list">
-              <!-- <li class="main-nav__item"><a class="link link--nav" href="#about">О нас</a></li>
-              <li class="main-nav__item"><a class="link link--nav" href="#platforms">Платформы</a></li>
-              <li class="main-nav__item"><a class="link link--nav" href="#games">Игры</a></li>
+              <li class="main-nav__item"><a class="link link--nav" href="#xbox">Xbox</a></li>
+              <li class="main-nav__item"><a class="link link--nav" href="#switch">Nintendo</a></li>
               <li class="main-nav__item"><a class="link link--nav" href="#price">Прайс</a></li>
-              <li class="main-nav__item"><a class="link link--nav" href="#find_us">Найти нас</a></li> -->
               <li class="contacts">
                 <a class="link" href="tel:+79000939392" title="Позвонить нам">8-9000-93-93-92</a>
                 <a class="link" href="https://vk.com/mgnvr" title="Мы ВК" target="_blank">
@@ -61,11 +60,9 @@
         <nav id="nav" class="main-nav  main-nav--closed  main-nav--nojs  main-nav--mobile">
           <div class="main-nav__wrapper">
             <ul class="main-nav__list">
-              <li class="main-nav__item"><a class="link link--nav" href="#about">О нас</a></li>
-              <li class="main-nav__item"><a class="link link--nav" href="#platforms">Платформы</a></li>
-              <li class="main-nav__item"><a class="link link--nav" href="#games">Игры</a></li>
+              <li class="main-nav__item"><a class="link link--nav" href="#xbox">Xbox</a></li>
+              <li class="main-nav__item"><a class="link link--nav" href="#switch">Nintendo</a></li>
               <li class="main-nav__item"><a class="link link--nav" href="#price">Прайс</a></li>
-              <li class="main-nav__item"><a class="link link--nav" href="#find_us">Найти нас</a></li>
               <li class="main-nav__item main-nav__item--info contacts">
                 <div class="contacts__tel"><a class="link" href="tel:+79000939392"
                     title="Позвонить нам">8-9000-93-93-92</a>
@@ -92,28 +89,205 @@
         <h1 class="header__title header__title--consoles">Играй <br class="header__separator"> по-новому</h1>
         <!-- <span class="header__subtitle">в Магнитогорске</span> -->
         <p class="header__offer">
-          Продажа, гарантия, ремонт и обслуживание игровых консолей XBox, Nintendo, PlayStation.
+          Продажа, гарантия, ремонт и обслуживание игровых консолей Xbox, Nintendo, PlayStation.
           Начните своё игровое путешествие уже сегодня!
         </p>
-        <a href="#find_us" class="link link--cta">
+        <a href="#xbox" class="link link--cta">
           Выбрать консоль
         </a>
       </div>
       <div class="header__bottom">
-        <a class="link link--more" href="#about">
+        <a class="link link--more" href="#xbox">
           Узнать больше
         </a>
       </div>
     </div>
-    <video class="header__video" poster="assets/mario.jpg" autoplay playsinline muted loop>
+    <video class="header__video" poster="assets/images/mario.jpg" autoplay playsinline muted loop>
       <source src="assets/video/mario.mp4" type="video/mp4">
     </video>
   </header>
-  <!-- <script src="js/lite-yt-embed.js"></script>
+  <main>
+    <section id="xbox" class="section platfrom platform--xbox">
+      <div class="container">
+        <h2 class="platform__title platform__title--xbox">
+          <span class="hash hash--xbox">#</span> Xbox 360 <img src="assets/images/icon-xbox360.svg" alt="" width="36">
+        </h2>
+        <p class="platform__desc">
+          Создан для истинных геймеров. Xbox 360 предлагает захватывающие приключения и непревзойдённый игровой опыт.
+          Огромная библиотека игр, HD-графика, культовые игровые серии - всё это делает Xbox 360 лучшим выбором для
+          развлечений.
+        </p>
+        <div class="platform__features">
+          <div class="platform__feature">
+            <div class="platform__feature-icon">
+              <img src="assets/images/icon_xbox-hdd.png" alt="Накопитель 250GB для Xbox 360">
+            </div>
+            <!-- <h3 class="platform__feature-title">250GB</h3> -->
+            <p class="platform__feature-desc">Встроенный ЖД для хранения большого количества игр</p>
+          </div>
+          <div class="platform__feature">
+            <div class="platform__feature-icon">
+              <img src="assets/images/icon_xbox-catalog.png" alt="Большой каталог игр для Xbox 360">
+            </div>
+            <!-- <h3 class="platform__feature-title">30+ игр</h3> -->
+            <p class="platform__feature-desc">Большой каталог игр самых разных жанров</p>
+          </div>
+          <div class="platform__feature">
+            <div class="platform__feature-icon">
+              <img src="assets/images/Icon_xbox-controller.png" alt="Оригинальный геймпад для Xbox 360">
+            </div>
+            <!-- <h3 class="platform__feature-title">Оригинал</h3> -->
+            <p class="platform__feature-desc">Оригинальные комплектующие</p>
+          </div>
+          <div class="platform__feature">
+            <div class="platform__feature-icon">
+              <img src="assets/images/icon_xbox-warranty.png" alt="Гарантия для Xbox 360">
+            </div>
+            <!-- <h3 class="platform__feature-title">Гарантия</h3> -->
+            <p class="platform__feature-desc">Гарантия, обслуживание, ремонт, консультация</p>
+          </div>
+        </div>
+        <div class="swiper-wrapper swiper-wrapper--xbox">
+          <div class="swiper swiper--xbox">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="assets/images/game--xbox-gears.png" alt="">
+                <div class="swiper-title">
+                  <h3 class="title">
+                    Gears of War 3
+                    </h4>
+                    <p class="subtitle">
+                      Захватывающее завершение одной из самых запоминающихся и популярных игровых серий.
+                    </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/images/game--xbox-halo4.png" alt="">
+                <div class="swiper-title">
+                  <h3 class="title">
+                    Halo 4
+                    </h4>
+                    <p class="subtitle">
+                      Человек-суперсолдат Мастер Чиф и его ИИ Кортана сталкиваются с неизвестными угрозами во время
+                      исследования планеты древней цивилизации.
+                    </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination swiper-pagination--xbox"></div>
+          <div class="swiper-button-prev swiper-button-prev--xbox"></div>
+          <div class="swiper-button-next swiper-button-next--xbox"></div>
+        </div>
+      </div>
+    </section>
+    <section id="switch" class="section platfrom platform--switch">
+      <div class="container">
+        <h2 class="platform__title platform__title--switch">
+          <span class="hash hash--switch">#</span> Nintendo Switch <img src="assets/images/icon-switch.svg" alt=""
+            width="42">
+        </h2>
+        <p class="platform__desc">
+          Эта уникальная гибридная консоль сочетает в себе мощность домашней игровой системы и портативность, позволяя
+          вам наслаждаться любимыми играми где угодно и когда угодно.
+        </p>
+        <div class="platform__features">
+          <div class="platform__feature">
+            <div class="platform__feature-icon">
+              <img src="assets/images/icon_switch-microsd.png" alt="Дополнительная карта памяти для Nintendo Switch">
+            </div>
+            <!-- <h3 class="platform__feature-title">250GB</h3> -->
+            <p class="platform__feature-desc">Дополнительная карта памяти для большой коллекции игр</p>
+          </div>
+          <div class="platform__feature">
+            <div class="platform__feature-icon">
+              <img src="assets/images/icon_switch-catalog.png" alt="Большой каталог игр для Nintendo Switch">
+            </div>
+            <!-- <h3 class="platform__feature-title">30+ игр</h3> -->
+            <p class="platform__feature-desc">Несколько популярных игр уже установлены</p>
+          </div>
+          <div class="platform__feature">
+            <div class="platform__feature-icon">
+              <img src="assets/images/Icon_switch-controller.png" alt="Оригинальные комплектующие Nintendo Switch">
+            </div>
+            <!-- <h3 class="platform__feature-title">Оригинал</h3> -->
+            <p class="platform__feature-desc">Оригинальные комплектующие от производителя</p>
+          </div>
+          <div class="platform__feature">
+            <div class="platform__feature-icon">
+              <img src="assets/images/icon_switch-warranty.png" alt="Гарантия для Nintendo Switch">
+            </div>
+            <!-- <h3 class="platform__feature-title">Гарантия</h3> -->
+            <p class="platform__feature-desc">Гарантия, обслуживание, ремонт, консультация</p>
+          </div>
+        </div>
+        <div class="swiper-wrapper swiper-wrapper--switch">
+          <div class="swiper swiper--switch">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="assets/images/game--switch-mario-odyssey.png" alt="">
+                <div class="swiper-title">
+                  <h3 class="title">
+                    Super Mario Odyssey
+                    </h4>
+                    <p class="subtitle">
+                      Исследуйте невероятные места вдали от Грибного королевства, присоединившись к Марио и его новому
+                      союзнику Кэппи в огромном 3D-приключении.
+                    </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/images/game--switch-zelda-botw.png" alt="">
+                <div class="swiper-title">
+                  <h3 class="title">
+                    The Legend of Zelda: Breath of the Wild
+                    </h4>
+                    <p class="subtitle">
+                      Путешествуйте по обширным полям, лесам и горным вершинам, узнавая, что стало с королевством Хайрул
+                      в
+                      этом потрясающем приключении под открытым небом.
+                    </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination swiper-pagination--switch"></div>
+          <div class="swiper-button-prev swiper-button-prev--switch"></div>
+          <div class="swiper-button-next swiper-button-next--switch"></div>
+        </div>
+      </div>
+    </section>
+    <section id="price" class="section section--price section--price-consoles">
+      <div class="container">
+        <h2 class="platform__title"><span class="hash">#</span> Прайс</h2>
+        <p>Наличие уточняйте по телефону. Оказываем услуги по ремонту, модификации консолей, проводим консультации.</p>
+        <iframe class="price--googlesheet"
+          src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSZjfSZIMWKH99VcfH9TbktKP7dIuNOfV7ywes7mqnj24PwK8VjGLHOCon0BWNeB_pRqWVbj-AOeAC2/pubhtml?gid=138991594&amp;single=true&amp;widget=true&amp;headers=false"
+          height="300"></iframe>
+      </div>
+    </section>
+  </main>
+  <footer class="footer footer--consoles">
+    <div class="container">
+      <div class="contacts">
+        <a class="link" href="tel:+79000939392" title="Позвонить нам">8-9000-93-93-92</a>
+        <a class="link" href="https://vk.com/mgnvr" title="Мы ВК" target="_blank">
+          Вк
+        </a>
+      </div>
+      <div class="developer">
+        Дизайн и разработка <a class="link" href="https://sergeyprimirenkov.github.io/" target="_blank"><img
+            src="assets/icons/logo-ps.svg" alt="Сергей Примиренков" width="27" height="23"></a>
+      </div>
+      <div class="copyright">
+        © Driv3r, 2017 - <span id="year"></span> | По всем вопросам обращаться по телефону или в группу ВКонтакте | <a
+          href="https://mgnvr.ru/catalog/#/radio" target="_blank" class="link link--radio">Послушать радио</a>
+      </div>
+    </div>
+  </footer>
   <script src="js/swiper.min.js"></script>
-  <script src="js/pannellum.min.js"></script>
-  <script src="https://floors-widget.api.2gis.ru/loader.js" id="dg-floors-widget-loader"></script>
-  <script src="js/script.js"></script> -->
+  <script src="js/script.js"></script>
+  <script src="js/consoles.js"></script>
 </body>
 
 </html>
