@@ -25,3 +25,17 @@ const swiperSwitch = new Swiper(".swiper--switch", {
     prevEl: ".swiper-button-prev--switch",
   },
 });
+
+const swiperAccessories = new Swiper(".swiper--accessories", {
+  direction: "horizontal",
+  loop: true,
+  // autoplay: true,
+  grabCursor: true,
+  pagination: {
+    el: ".swiper-pagination--accessories",
+  },
+  // navigation: {
+  //   nextEl: ".swiper-button-next--switch",
+  //   prevEl: ".swiper-button-prev--switch",
+  // },
+});
