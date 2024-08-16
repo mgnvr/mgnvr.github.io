@@ -485,7 +485,7 @@ h2::before {
     display: none;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .header__top {
     justify-content: flex-start;
   }
@@ -647,6 +647,9 @@ div.pnlm-tooltip span::after {
 }
 .contacts > :not(:last-child) {
   margin-right: 15px;
+}
+.main-nav--mobile .main-nav__item--consoles img {
+  width: 180px;
 }
 .main-nav--mobile .main-nav__item {
   position: relative;
@@ -896,7 +899,7 @@ h3.platform-name {
 .platform-img {
   margin-bottom: 80px;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .main-nav {
     position: relative;
     flex-grow: 1;
@@ -951,6 +954,9 @@ h3.platform-name {
   }
   .main-nav__item a:hover::after {
     width: 100%;
+  }
+  .main-nav__item--consoles a::after {
+    display: none;
   }
   #panorama {
     height: 75vh;
