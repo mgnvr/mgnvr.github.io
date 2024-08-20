@@ -11,18 +11,29 @@
     content="игровые консоли, приставки, playstation, nintendo, Xbox, прошивка консолей, консоли магнитогорск">
   <meta name="robots" content="all">
   <meta name="author" content="Сергей Примиренков">
-  <meta name="theme-color" content="#111136">
+  <meta name="theme-color" content="#0e0d0d">
   <link rel="preload" href="assets/images/mario.webp" as="image" type="image/webp" crossorigin>
   <link rel="preload" href="assets/fonts/Sci-Fi.woff" as="font" type="font/woff" crossorigin>
   <link rel="preload" href="assets/fonts/Montserrat-Regular.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/Montserrat-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/Montserrat-Bold.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/video/mario.mp4" as="video" type="video/mp4" crossorigin>
+  <link href="switch%20lite--blue.webp" rel="preload" as="image" type="image/webp">
+  <link href="switch%20lite--grey.webp" rel="preload" as="image" type="image/webp">
+  <link href="switch%20lite--pink.webp" rel="preload" as="image" type="image/webp">
+  <link href="switch%20lite--turquoise.webp" rel="preload" as="image" type="image/webp">
+  <link href="switch%20lite--yellow.webp" rel="preload" as="image" type="image/webp">
+  <link href="xbox%20360--black.webp" rel="preload" as="image" type="image/webp">
+  <link href="xbox%20360--white.webp" rel="preload" as="image" type="image/webp">
+  <link href="switch%20oled--white.webp" rel="preload" as="image" type="image/webp">
+  <link href="switch%20oled--red.webp" rel="preload" as="image" type="image/webp">
   <link rel="stylesheet" href="css/swiper.min.css">
   <link rel="stylesheet" href="css/style.min.css">
   <link rel="stylesheet" href="css/swiper.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link href="css/index.css" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+  <script defer src="js/main.53aeba9a.js"></script>
   <title>DriV3R - Игровые консоли</title>
   <script>
     var vh = window.innerHeight;
@@ -351,7 +362,7 @@
         </div>
       </div>
     </section>
-    <section id="accessories" class="section section--accessories">
+    <section id="accessories" class="section platform--accessories section--accessories">
       <div class="container">
         <h2 class="platform__title platform__title--switch">
           <span class="hash hash--accessories">#</span> Аксессуары <img
@@ -365,22 +376,20 @@
           <figure class="masonry__glass">
             <!-- <img src="assets/images/consoles/accessories/switch--glass.webp"
               alt="Защитное стекло для экрана Nintendo Switch" /> -->
-              <img src="assets/images/consoles/accessories/protect-glass.webp"
+            <img src="assets/images/consoles/accessories/protect-glass.webp"
               alt="Защитное стекло для экрана Nintendo Switch" />
             <figcaption>Защитное стекло</figcaption>
           </figure>
           <figure class="masonry__card">
             <!-- <img src="assets/images/consoles/accessories/switch--memories.webp"
               alt="Карта памяти для Nintendo Switch" /> -->
-              <img src="assets/images/consoles/accessories/microsd-card.webp"
-              alt="Карта памяти для Nintendo Switch" />
+            <img src="assets/images/consoles/accessories/microsd-card.webp" alt="Карта памяти для Nintendo Switch" />
             <figcaption>Карта памяти</figcaption>
           </figure>
           <figure class="masonry__cover">
             <!-- <img src="assets/images/consoles/accessories/switch--covers.webp"
               alt="Чехол для переноски Nintendo Switch" /> -->
-              <img src="assets/images/consoles/accessories/protect-case.webp"
-              alt="Чехол для переноски Nintendo Switch" />
+            <img src="assets/images/consoles/accessories/protect-case.webp" alt="Чехол для переноски Nintendo Switch" />
             <figcaption>Чехол для переноски</figcaption>
           </figure>
           <figure class="masonry__cable">
@@ -400,9 +409,58 @@
       <div class="container">
         <h2 class="platform__title"><span class="hash">#</span> Выбери свою консоль</h2>
         <p>Наличие уточняйте по телефону. Оказываем услуги по ремонту, модификации консолей, проводим консультации.</p>
-        <iframe class="price--googlesheet"
+        <div id="root">
+          <div class="constructor">
+            <div class="constructor__preview" style="margin-top:20px"><img alt="XBox 360"
+                class="constructor__preview-img" src="xbox 360--black.webp" style="width:100%;height:auto">
+              <div class="constructor__selected-console">
+                <h2 class="constructor__selected-console-name">XBox 360 <span
+                    class="constructor__selected-color">Черный</span></h2><span class="constructor__price">13000</span>
+                <div class="constructor__selected-params">
+                  <div class="constructor__selected-option constructor__selected-option--price"><span
+                      class="constructor__selected-value">Память 250Gb</span><span class="constructor__selected-price">+
+                      2000</span></div>
+                  <div class="constructor__selected-option constructor__selected-option--ready-price"><span
+                      class="constructor__selected-value">Итого</span><span class="constructor__selected-price">15000
+                      ₽</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="constructor__parameters">
+              <div class="constructor__group">
+                <h3 class="constructor__parameter">Консоль</h3><button class="constructor__btn constructor__btn--active"
+                  style="padding:10px 14px;margin:5px;border-radius:4px;cursor:pointer;transition:all .3s ease 0s">XBox
+                  360</button><button class="constructor__btn"
+                  style="padding:10px 14px;margin:5px;border-radius:4px;cursor:pointer;transition:all .3s ease 0s">Switch
+                  Lite</button><button class="constructor__btn"
+                  style="padding:10px 14px;margin:5px;border-radius:4px;cursor:pointer;transition:all .3s ease 0s">Switch
+                  Oled</button>
+              </div>
+              <div class="constructor__group">
+                <h3 class="constructor__parameter">Память</h3><button class="constructor__btn constructor__btn--active"
+                  style="padding:10px 14px;margin:5px;border-radius:4px;cursor:pointer;transition:all .3s ease 0s">250Gb</button><button
+                  class="constructor__btn"
+                  style="padding:10px 14px;margin:5px;border-radius:4px;cursor:pointer;transition:all .3s ease 0s">500Gb</button>
+              </div>
+              <div>
+                <h3 class="constructor__parameter">Цвет</h3>
+                <div class="constructor__colors">
+                  <div><input class="constructor__radio black" id="Черный" name="color" type="radio" value="Черный"
+                      checked>
+                  </div>
+                  <div><input class="constructor__radio white" id="Белый" name="color" type="radio" value="Белый"></div>
+                </div>
+              </div>
+              <div>
+                <div class="constructor__additionals"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <iframe class="price--googlesheet"
           src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSZjfSZIMWKH99VcfH9TbktKP7dIuNOfV7ywes7mqnj24PwK8VjGLHOCon0BWNeB_pRqWVbj-AOeAC2/pubhtml?gid=138991594&amp;single=true&amp;widget=true&amp;headers=false"
-          height="300"></iframe>
+          height="300"></iframe> -->
       </div>
     </section>
   </main>
