@@ -1296,6 +1296,9 @@ figcaption {
     margin: 0 auto;
     text-align: center;
   }
+  .platform__desc--accessories {
+    max-width: 600px;
+  }
   .platform__desc--accessories,
   .platform__desc--price {
     margin-bottom: 24px;
