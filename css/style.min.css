@@ -6,6 +6,7 @@
 .link--cta,
 body,
 h2,
+h3,
 main {
   position: relative;
 }
@@ -24,7 +25,8 @@ iframe {
   width: 100%;
 }
 .link--cta::before,
-h2::before {
+h2::before,
+h3::before {
   opacity: 0.5;
   z-index: -10;
   content: "";
@@ -227,6 +229,10 @@ h2 {
   font-size: 28px;
   max-width: fit-content;
 }
+h3.export-event {
+  max-width: fit-content;
+  margin-top: 36px;
+}
 p,
 p.about-text {
   max-width: 600px;
@@ -241,7 +247,8 @@ p {
   margin-bottom: 36px;
   padding-top: 24px;
 }
-h2::before {
+h2::before,
+h3.export-event::before {
   position: absolute;
   top: -35px;
   right: -45px;
@@ -250,6 +257,12 @@ h2::before {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+}
+h3.export-event::before {
+  top: -20px;
+  right: -30px;
+  width: 50px;
+  height: 50px;
 }
 .section--about h2::before {
   background-image: url(/assets/icons/planner.png);
@@ -265,6 +278,9 @@ h2::before {
 }
 .section--find_us h2::before {
   background-image: url(/assets/icons/pin.png);
+}
+.section--about h3.export-event::before {
+  background-image: url(/assets/icons/calendar.png);
 }
 .header__offer {
   margin-bottom: 40px;

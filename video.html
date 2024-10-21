@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video</title>
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+  <style>
+    .swiper {
+      width: 100%;
+    }
+
+    .container--video {
+      padding: 0;
+      padding-bottom: 48px;
+    }
+
+    .swiper video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .swiper--video {
+      border-radius: 0;
+    }
+
+    .swiper-wrapper--video {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .swiper-wrapper--video .swiper-button-prev,
+    .swiper-wrapper--video .swiper-button-next {
+      display: flex;
+      position: relative;
+      left: auto;
+      right: auto;
+      width: 36px;
+      height: 36px;
+      border: 2px solid #fff;
+      color: #fff
+    }
+
+    .swiper-wrapper--video .swiper-button-next:after,
+    .swiper-wrapper--video .swiper-button-prev:after {
+      font-size: 16px;
+    }
+
+    .container--pag.container--video {
+      position: relative;
+      display: flex;
+      gap: 16px;
+      padding-left: 16px;
+      padding-bottom: 0;
+      bottom: 32px;
+    }
+
+    @media (min-width: 768px) {
+      .container--pag.container--video {
+        padding-left: 0;
+      }
+    }
+
+    @media (min-width: 1200px) {
+      h3.title.title--video {
+        font-size: 32px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <section>
+    <h1>Другой код</h1>
+  </section>
+  <div class="swiper-wrapper swiper-wrapper--video swiper-wrapper--xbox">
+    <div class="swiper swiper--video">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <video src="assets/video/gow3_ready.mp4" muted loop preload="none" poster="assets/images/consoles/xbox/game--xbox-gears.webp"></video>
+          <div class="swiper-title">
+            <div class="container container--video">
+              <h3 class="title title--video">
+                Gears of War 3
+              </h3>
+              <p class="subtitle">
+                Захватывающее завершение одной из самых запоминающихся и популярных игровых серий.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-lazy-preloader"></div>
+          <img src="assets/images/consoles/xbox/game--xbox-halo4.webp" alt="Halo 4" loading="lazy" />
+          <div class="swiper-title">
+            <h3 class="title">
+              Halo 4
+            </h3>
+            <p class="subtitle">
+              Человек-суперсолдат Мастер Чиф и его ИИ Кортана сталкиваются с неизвестными угрозами во время
+              исследования планеты древней цивилизации.
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-lazy-preloader"></div>
+          <img src="assets/images/consoles/xbox/game--xbox-gtav.webp" alt="Grand Theft Auto V" loading="lazy" />
+          <div class="swiper-title">
+            <h3 class="title">
+              Grand Theft Auto V
+            </h3>
+            <p class="subtitle">
+              Исследуйте восхитительный мир Лос-Сантоса и округа Блейн в Grand Theft Auto V и постройте свою
+              криминальную империю.
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-lazy-preloader"></div>
+          <picture>
+            <img src="assets/images/consoles/xbox/game--xbox-bioshockinfinite.webp" alt="Bioshock Infinite"
+              loading="lazy" />
+            <div class="swiper-title">
+              <h3 class="title">
+                Bioshock Infinite
+              </h3>
+              <p class="subtitle">
+                Детективу Букеру ДеВитту предстоит раскрыть загадочную историю летающего города, и разыскать
+                некую
+                Элизабет, заточённую в нём с самого рождения.
+              </p>
+            </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-lazy-preloader"></div>
+          <picture>
+            <img src="assets/images/consoles/xbox/game--xbox-dead-space.webp" alt="Dead Space" loading="lazy" />
+            <div class="swiper-title">
+              <h3 class="title">
+                Dead Space
+              </h3>
+              <p class="subtitle">
+                Вместе с очередной порцией руды добывающая платформа «Ишимура» поглотила инопланетную форму жизни,
+                с которой должен разобраться ничего не подозревающий инженер Айзек Кларк.
+              </p>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="swiper-pagination swiper-pagination--video"></div>
+    <div class="container container--pag container--video">
+      <div class="swiper-button-prev swiper-button-prev--video"></div>
+      <div class="swiper-button-next swiper-button-next--video"></div>
+    </div>
+  </div>
+  <script src="js/swiper.min.js"></script>
+  <script src="js/consoles.js"></script>
+</body>
+
+</html>
