@@ -1,0 +1,7 @@
+- [Главная](/)
+- [Руководства]()
+  - [Эмуляторы игровых консолей для Android](/guide/install)
+  - [Установка игр для Nintendo Switch](/guide/config)
+- [Устройства]()
+  - [Nintendo Switch](/api/methods)
+  - [Oculus Quest](/api/methods)
