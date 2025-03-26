@@ -7,6 +7,7 @@
   color: #3498db;
 }
 
-.sidebar-toggle span {
+.sidebar-toggle span,
+.progress {
   background-color: #3498db;
 }
