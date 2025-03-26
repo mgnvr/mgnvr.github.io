@@ -15,15 +15,16 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      basePath: 'https://raw.githubusercontent.com/mgnvr/mgnvr.github.io/master/docs/',
+      basePath: '/docs/',
       name: 'DriV3R Docs',
-      // repo: 'mgnvr/mgnvr.github.io',
       loadSidebar: true,
+      relativePath: true,
       notFoundPage: '_404.md'
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script> window.$docsify = { loadSidebar: true, alias: { '/.*/_sidebar.md': '/_sidebar.md' } } </script>
 </body>
 
 </html>
