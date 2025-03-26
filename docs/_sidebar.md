@@ -1,8 +1,8 @@
 - [Главная](/)
-- [Руководства](/guides/)
+- **Руководства**
   - [Эмуляторы для Android](/guides/emulators)
     - [NES](/guides/emulators#NES)
   - [Игры для Switch](/guides/switch_games)
-- [Устройства](/devices/)
+- **Устройства**
   - [Nintendo Switch](/devices/switch)
   - [Oculus Quest](/devices/oculus_quest)
