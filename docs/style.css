@@ -1,3 +1,12 @@
 .markdown-section blockquote {
   border-color: #3498db;
 }
+
+.sidebar ul li.active > a,
+.markdown-section a {
+  color: #3498db;
+}
+
+.sidebar-toggle span {
+  background-color: #3498db;
+}

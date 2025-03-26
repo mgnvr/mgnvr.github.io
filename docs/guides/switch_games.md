@@ -1,0 +1,1 @@
+# Установка игр для Nintendo Switch
