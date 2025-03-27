@@ -1,6 +1,6 @@
 - [Главная](/)
 - **Руководства**
-  - [Эмуляторы для Android](/guides/emulators#Эмуляторы-игровых-консолей-для-android)
+  - [Эмуляторы для Android](/guides/emulators)
     - [NES](/guides/nes)
     - [Snes9x](/guides/snes)
   <!-- - [Игры для Switch](/guides/switch_games) -->
