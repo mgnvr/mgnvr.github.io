@@ -7,6 +7,7 @@
   <meta charset="UTF-8" />
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css" />
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -14,11 +15,20 @@
   <script>
     window.$docsify = {
       basePath: 'https://raw.githubusercontent.com/mgnvr/mgnvr.github.io/master/docs/',
+      name: 'DriV3R Docs',
       loadSidebar: true,
-      themeColor: '#3498db'
+      themeColor: '#3498db',
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md',
+      },
+      search: {
+        placeholder: 'Поиск по документации...',
+        noData: 'Ничего не найдено.',
+      },
     };
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 </body>
 
 </html>
