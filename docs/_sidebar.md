@@ -2,6 +2,7 @@
 - **Руководства**
   - [Эмуляторы для Android](/guides/emulators)
     - [NES](/guides/emulators#NES)
+    - [Snes9x](/guides/emulators#snes9x-ex)
   - [Игры для Switch](/guides/switch_games)
 - **Устройства**
   - [Nintendo Switch](/devices/switch)
