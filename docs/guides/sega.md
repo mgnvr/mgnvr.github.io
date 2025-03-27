@@ -1,11 +1,17 @@
-# NES
+# Sega Mega Drive
 
-![NES Console](../images/nes/nes.png)
+![NES Console](../images/sega/sega.jpg)
 
 
-**NES (Nintendo Entertainment System)** — 8-битная игровая консоль, выпущенная Nintendo в 1983 году в Японии под названием Famicom, а в 1985 — в США и Европе. Она стала одной из самых популярных приставок своего времени, во многом благодаря таким играм, как Super Mario Bros., The Legend of Zelda и Metroid. NES использовала картриджи в качестве носителей, обладала скромными техническими характеристиками (1,79 МГц процессор, 2 КБ ОЗУ), но предлагала яркую для своего времени графику и запоминающийся звук. Консоль помогла возродить игровую индустрию после кризиса 1983 года и продалась тиражом более 60 млн экземпляров. Для неё также выпускались периферийные устройства, например, световой пистолет Zapper для игр вроде Duck Hunt. Сегодня игры NES можно запускать на смартфонах через эмуляторы, такие как **Nostalgia.NES** или **NES.emu**.
+**Sega Mega Drive** (известная как **Sega Genesis** в Северной Америке) — 16-битная игровая консоль, выпущенная компанией Sega в 1988 году в Японии, а в 1989–1990 годах — в других регионах. Она стала главным конкурентом SNES в «войне консолей» 1990-х и прославилась высокой скоростью процессора (7,6 МГц против 3,58 МГц у SNES), что делало её особенно подходящей для динамичных игр, таких как платформеры и файтинги.
 
-![NES Emulator](../images/nes/nes_emu.png)
+Ключевой особенностью Mega Drive была серия игр про Sonic the Hedgehog, созданная как ответ Mario от Nintendo — быстрый геймплей и фирменный стиль Sonic стали визитной карточкой консоли. Среди других культовых игр — Streets of Rage, Golden Axe, Phantasy Star IV, Shinobi III и Mortal Kombat (в версии без цензуры, в отличие от SNES).
+
+Консоль поддерживала дополнительные периферийные устройства, такие как Sega CD (CD-приставка) и Sega 32X (апгрейд до 32-бит), но они не стали массово успешными. Всего было продано около 30–40 млн экземпляров Mega Drive.
+
+Сегодня игры для Sega Mega Drive можно запускать на Android через эмуляторы: **MD.emu**, **Genesis Plus** или **RetroArch** с соответствующим ядром.
+
+![Sega Emulator](../images/sega/sega_emu.png)
 
 **Эмулятор NES/Famicom** основанный на исходном коде FCEUX 2.1.6-svn (GPL), разработан и протестирован на Droid/Milestone, Xoom, Xperia Play, но будет работать и на других устройствах с подобными характеристиками. Приложение основано на последней актуальной версии эмулятора FCEUX (большинство других приложений в Маркете используют более старые и менее точные версии FCE Ultra).
 
@@ -21,11 +27,11 @@
 
 **Скриншоты**
 
-![NES Screenshot](../images/nes/nes_emu_screen1.png)
-![NES Screenshot](../images/nes/nes_emu_screen2.png)
-![NES Screenshot](../images/nes/nes_emu_screen3.png)
-![NES Screenshot](../images/nes/nes_emu_screen4.png)
-![NES Screenshot](../images/nes/nes_emu_screen5.png)
+![Sega Screenshot](../images/sega/sega_emu_screen1.png)
+![Sega Screenshot](../images/sega/sega_emu_screen2.png)
+![Sega Screenshot](../images/sega/sega_emu_screen3.png)
+![Sega Screenshot](../images/sega/sega_emu_screen4.png)
+![Sega Screenshot](../images/sega/sega_emu_screen5.png)
 
 
-[Скачать](https://mobdisc.com/fdl/6330f6ea-15e4-42bf-a042-efdcf1d359aa/NES.emu-v1-5-81.apk)
+[Скачать](https://mobdisc.com/fdl/a104a34e-5638-4a56-8e8c-cb576e1048df/MD-emu-v1-5-82-v8a.apk)

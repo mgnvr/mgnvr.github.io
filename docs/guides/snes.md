@@ -6,7 +6,7 @@
 
 Среди самых знаменитых игр для SNES — Super Mario World, The Legend of Zelda: A Link to the Past, Super Metroid, Chrono Trigger, Donkey Kong Country и Street Fighter II Turbo. Консоль поддерживала дополнительные чипы в картриджах (например, Super FX), что расширяло её возможности. Всего было продано более 49 млн экземпляров SNES.
 
-Сегодня игры для SNES можно запускать на Android через эмуляторы, такие как Snes9x EX+, SuperRetro16 или John SNES.
+Сегодня игры для SNES можно запускать на Android через эмуляторы, такие как **Snes9x EX+**, **SuperRetro16** или **John SNES**.
 
 ## Snes9x EX+
 

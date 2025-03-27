@@ -3,6 +3,7 @@
   - [Эмуляторы для Android](/guides/emulators)
     - [NES](/guides/nes)
     - [SNES](/guides/snes)
+    - [Sega Mega Drive](/guides/sega)
   <!-- - [Игры для Switch](/guides/switch_games) -->
 - **Устройства**
   - [Nintendo Switch](/devices/switch)
