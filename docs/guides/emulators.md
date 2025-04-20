@@ -3,6 +3,7 @@
 ![Emulators](../images/emulators/emulators1.jpeg)
 ![Emulators](../images/emulators/emulators2.jpg)
 ![Emulators](../images/emulators/emulators3.png)
+![Emulators](../images/emulators/emulators4.jpg)
 
 
 > Эмулятор игровых консолей для Android – это программа, которая позволяет запускать игры, предназначенные для старых игровых приставок (например, NES, SNES, PlayStation, PSP, Nintendo DS и др.), на смартфонах или планшетах под управлением ОС Android.
