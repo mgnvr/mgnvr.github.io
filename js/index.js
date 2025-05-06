@@ -145,6 +145,19 @@ const swiperPSVR = new Swiper(".swiper--psvr", {
   },
 });
 
+const swiperPSVR2 = new Swiper(".swiper--psvr2", {
+  direction: "horizontal",
+  loop: true,
+  grabCursor: true,
+  pagination: {
+    el: ".swiper-pagination--psvr2",
+  },
+  navigation: {
+    nextEl: ".swiper-button-next--psvr2",
+    prevEl: ".swiper-button-prev--psvr2",
+  },
+});
+
 const swiperPS5 = new Swiper(".swiper--ps5", {
   direction: "horizontal",
   loop: true,
