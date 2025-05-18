@@ -272,18 +272,23 @@ h3.export-event::before {
 }
 .section--about h2::before {
   background-image: url(/assets/icons/planner.png);
+  left: 80px;
 }
 .section--platforms h2::before {
   background-image: url(/assets/icons/piсture.png);
+  left: 160px;
 }
 .section--games h2::before {
   background-image: url(/assets/icons/game.png);
+  left: 60px;
 }
 .section--price h2::before {
   background-image: url(/assets/icons/wallet.png);
+  left: 80px;
 }
 .section--find_us h2::before {
   background-image: url(/assets/icons/pin.png);
+  left: 140px;
 }
 .section--about h3.export-event::before {
   background-image: url(/assets/icons/calendar.png);
