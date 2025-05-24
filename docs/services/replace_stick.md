@@ -1,7 +1,6 @@
 # Замена стиков для PlayStation, XBox и Nintendo
 
 ![NES Console](../images/stick/gc_stick.jpg)
-![NES Console](../images/stick/wii_stick.jpg)
 ![NES Console](../images/stick/stick_ifixit.jpg)
 ![NES Console](../images/stick/stick_stemadeck.jpg)
 
