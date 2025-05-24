@@ -4,7 +4,9 @@
     - [NES](/guides/nes)
     - [SNES](/guides/snes)
     - [Sega Mega Drive](/guides/sega)
-  <!-- - [Игры для Switch](/guides/switch_games) -->
+    <!-- - [Игры для Switch](/guides/switch_games) -->
 - **Устройства**
   - [Nintendo Switch](/devices/switch)
   - [Oculus Quest](/devices/oculus_quest)
+- **Услуги**
+  - [Замена стиков](/services/replace_stick)
