@@ -8,5 +8,6 @@
 - **Устройства**
   - [Nintendo Switch](/devices/switch)
   - [Oculus Quest](/devices/oculus_quest)
+  - [Miyoo Mini Plus](/devices/miyoo)
 - **Услуги**
   - [Замена стиков](/services/replace_stick)
