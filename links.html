@@ -21,17 +21,27 @@
   </script>
 </head>
 
-<body>
-  <header class="header header--features container--features">
-    <div class="container container--header container--features">
+<body class="body--features">
+  <header class="header header--features">
+    <div class="container container--header container--header-features">
       <a href="http://mgnvr.ru/" title="На главную">
         <img class="header__logo" src="assets/images/logo.png" alt="Центр ВР DriV3R" width="84" height="29">
       </a>
-      <h1 class="features__header">DriV3R - это то место, где вы пересекаете грань реальности, оказываетесь в совершенно
-        новых мирах и становитесь
-        их
-        частью, а не только наблюдателями.</h1>
+      <nav class="nav--features">
+        <a class="link" href="tel:+79000939392" title="Позвонить нам">8-9000-93-93-92</a>
+        <a class="link" href="https://vk.com/mgnvr" title="Мы в ВКонтакте" target="_blank">
+          вк
+        </a>
+        <a class="link" href="https://t.me/+z1_HLSna-YVjZmJi" title="Мы в Телеграм" target="_blank">
+          тг
+        </a>
+      </nav>
   </header>
+
+  <h1 class="features__header">DriV3R - это то место, где вы пересекаете грань реальности, оказываетесь в совершенно
+    новых мирах и становитесь
+    их
+    частью, а не только наблюдателями.</h1>
 
   <div class="container container--features">
     <ol class="links__features">
@@ -59,8 +69,8 @@
           class="links__feature-img links__feature-img--arcade">
         <h2 class="link__feature-title">АРКАДНЫЕ АВТОМАТЫ</h2>
         <p class="links__feature-desc">Изготовление, настройка, доставка ретроавтоматов для одного или двоих игроков.
-          С индивидуальным дизайном. Тысячи игр, много веселья</p>
-        <a class="link link--button" href="https://mgnvr.ru/cp.pdf">Скачать коммерческое предложение</a>
+          С индивидуальным дизайном. Тысячи игр</p>
+        <a class="link link--button" href="https://mgnvr.ru/cp.pdf">Скачать презентацию</a>
       </li>
 
       <li class="links__feature">
@@ -87,9 +97,37 @@
           class="links__feature-img links__feature-img--consoles">
         <h2 class="link__feature-title">ИГРОВЫЕ КОНСОЛИ</h2>
         <p class="links__feature-desc">Продажа игровых консолей разных поколений. XBox, PlayStation, Nintendo,
-          портативные консоли на Android и Linux с набором игр в комплекте</p>
+          портативные ретроконсоли с набором игр в комплекте</p>
         <a class="link link--button" href="http://mgnvr.ru/">Перейти на сайт</a>
       </li>
     </ol>
   </div>
   </div>
+  <footer class="footer footer--features">
+    <div class="container">
+      <div class="contacts">
+        <a class="link" href="tel:+79000939392" title="Позвонить нам">8-9000-93-93-92</a>
+        <a class="link" href="https://vk.com/mgnvr" title="Мы в ВКонтакте" target="_blank">
+          вконтакте
+        </a>
+        <a class="link" href="https://t.me/+z1_HLSna-YVjZmJi" title="Мы в Телеграм" target="_blank">
+          телеграм
+        </a>
+      </div>
+      <div class="developer">
+        Дизайн и разработка <a class="link" href="https://sergeyprimirenkov.github.io/" target="_blank"><img
+            src="assets/icons/logo-ps.svg" alt="Сергей Примиренков" width="27" height="23"></a>
+      </div>
+      <div class="copyright">
+        © Driv3r, 2017 - <span id="year"></span> | По всем вопросам обращаться по телефону или в
+        группу ВКонтакте | <a href="https://mgnvr.ru/catalog/#/radio" target="_blank" class="link link--radio">Послушать
+          радио</a>
+      </div>
+    </div>
+  </footer>
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
+</body>
+
+</html>
